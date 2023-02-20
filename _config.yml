@@ -15,7 +15,7 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "ko-KR"
 title                    : "Site Title"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
@@ -218,7 +218,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 3 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -290,3 +290,40 @@ defaults:
       comments: # true
       share: true
       related: true
+      show_date: true
+ # dev
+  # - scope:
+  #     path: "dev"
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     read_time: true
+  #     show_date: true
+  #     comments: true
+  #     share: true
+  #     related: true
+  #     toc: true
+  #     toc_sticky: true
+  #     sidebar:
+  #       nav: "dev"     
+ # page
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      show_date: true
+      comments: true
+      share: true
+      related: true
+      toc: true
+      toc_sticky: true
+      sidebar:
+        nav: "dev"   
+      # header:
+      #   teaser: /assets/images/unsplash/rpi4-rZKdS0wI8Ks.jpg
+      #   overlay_image: /assets/images/unsplash/rpi4-rZKdS0wI8Ks.jpg
+      #   overlay_filter: 0.4
+      #   caption: "Photo credit: [**Unsplash**](https://unsplash.com/photos/rZKdS0wI8Ks)"

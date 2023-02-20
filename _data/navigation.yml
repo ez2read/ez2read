@@ -2,11 +2,57 @@
 main:
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "Dev"
+    url: /dev/
+  - title: "CategoryAB"
+    url: /CategoryAB/
+  - title: "MyTest"
+    url: /MyTest/
+    
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+# dev sidebar
+dev:
+  - title: C#
+    children:
+      - title: "디자인 목표"
+        url: /rpi4cluster/design/
+        category: CategoryAB
+      - title: "하드웨어"
+        url: /rpi4cluster/hardware/
+        category: CategoryAB
+  - title: 디자인 패턴
+    children:
+      - title: "디자인 목표"
+        url: /rpi4cluster/design/
+        category: MyTest
+      - title: "하드웨어"
+        url: /rpi4cluster/hardware/
+        category: MyTest
+# dev sidebar
+mytest:
+  - title: mytest
+    children:
+      - title: "mytest디자인 목표"
+        url: /rpi4cluster/design/
+        category: CategoryAB
+      - title: "mytest하드웨어"
+        url: /rpi4cluster/hardware/
+        category: CategoryAB
+  - title: mytest디자인 패턴
+    children:
+      - title: "디자인 목표"
+        url: /rpi4cluster/design/
+        category: MyTest
+      - title: "하드웨어"
+        url: /rpi4cluster/hardware/
+        category: MyTest
