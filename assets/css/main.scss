@@ -68,3 +68,12 @@ a {
       outline: 0;
     }
   }
+
+
+//
+// Post excerpt 너비 조정
+//
+  .page__hero--overlay .page__lead {
+    max-width:2000px;   // 너비 넉넉하게 지정
+    text-align:justify; // 양쪽정렬
+}
