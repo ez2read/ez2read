@@ -40,19 +40,19 @@ dev:
         category: MyTest
 # dev sidebar
 mytest:
-  - title: 📁mytest
+  - title: 📁 mytest
     children:
-      - title: "📁디자인 목표"
+      - title: "📂디자인 목표"
         url: /rpi4cluster/design/
         category: CategoryAB
-      - title: "📁하드웨어"
+      - title: "📂하드웨어"
         url: /rpi4cluster/hardware/
         category: CategoryAB
   - title: 📁 패턴
     children:
-      - title: "📁디자인 목표"
+      - title: "📂디자인 목표"
         url: /rpi4cluster/design/
         category: MyTest
-      - title: "📁하드웨어"
+      - title: "📂하드웨어"
         url: /rpi4cluster/hardware/
         category: MyTest
